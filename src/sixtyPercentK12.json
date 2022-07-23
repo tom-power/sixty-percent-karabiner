@@ -20,14 +20,13 @@
       }]
     },
     {
-      "description": "~ (right_command + left_shift + escape)",
+      "description": "~ (right_shift + escape)",
       "manipulators": [{
         "from": {
           "key_code": "escape",
           "modifiers": {
             "mandatory": [
-              "right_command",
-              "left_shift"
+              "right_shift"
             ]
           }
         },
