@@ -431,6 +431,51 @@
           "type": "basic"
         }
       ]
+    },
+    {
+      "description": "Double quote wrapped (left_shift+right_shift+2 to wrapped double quote)",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "2",
+            "modifiers": {
+              "mandatory": [
+                "left_shift",
+                "right_shift"
+              ]
+            }
+          },
+          "to": [
+            {
+               "key_code": "x",
+               "modifiers": ["left_command"]
+           },
+           {
+               "shell_command": "pbpaste | pbcopy -pboard ruler"
+           },
+           {
+             "key_code": "quote",
+             "modifiers": [
+               "left_shift"
+             ]
+           },
+           {
+               "shell_command": "pbpaste -pboard ruler"
+           },
+           {
+               "key_code": "v",
+               "modifiers": ["left_command"]
+           },
+           {
+             "key_code": "quote",
+             "modifiers": [
+               "left_shift"
+             ]
+           }
+          ],
+          "type": "basic"
+        }
+      ]
     }
   ]
 }
