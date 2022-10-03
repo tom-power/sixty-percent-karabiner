@@ -1,4 +1,4 @@
-[Karabiner elements](https://github.com/tekezo/Karabiner-Elements) configuration for vi like key mappings on MacOS Sierra.
+[Karabiner elements](https://github.com/tekezo/Karabiner-Elements) configuration for 60% keyboards on MacOS.
 
 ##### Movement/navigation
 - ctrl+left/right -> up/down
