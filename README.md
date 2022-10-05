@@ -1,4 +1,4 @@
-[Karabiner elements](https://github.com/tekezo/Karabiner-Elements) configuration for 60% keyboards on MacOS.
+[Karabiner elements](https://github.com/tekezo/Karabiner-Elements) configuration for sixty percent keyboards MacOS.
 
 ##### Movement/navigation
 - ctrl+left/right -> up/down
@@ -10,8 +10,8 @@
 ### Installation
 
 ```
-clone https://github.com/tom-power/right-shift-vi-like-karabiner.git
-cd right-shift-vi-like-karabiner
+clone https://github.com/tom-power/sixty-percent-karabiner.git
+cd sixty-percent-karabiner
 ./install.sh
 ```
 The rules will need to be loaded in the Karabiner elements UI:
