@@ -1,7 +1,6 @@
 {
   "title": "sixtyPercentYoda",
-  "rules": [
-    {
+  "rules": [{
       "description": "~ (right_shift + escape)",
       "manipulators": [{
         "from": {
@@ -17,6 +16,28 @@
           "modifiers": [
             "left_shift"
           ]
+        }],
+        "type": "basic"
+      }]
+    },
+    {
+      "description": "~/ (right_shift + escape)",
+      "manipulators": [{
+        "from": {
+          "key_code": "escape",
+          "modifiers": {
+            "mandatory": [
+              "right_shift"
+            ]
+          }
+        },
+        "to": [{
+          "key_code": "backslash",
+          "modifiers": [
+            "left_shift"
+          ]
+        }, {
+          "key_code": "slash"
         }],
         "type": "basic"
       }]
