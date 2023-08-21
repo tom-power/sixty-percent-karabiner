@@ -22,6 +22,26 @@
         }],
         "type": "basic"
       }]
+    },
+    {
+      "description": "~ (left_option + escape)",
+      "manipulators": [{
+        "from": {
+          "key_code": "escape",
+          "modifiers": {
+            "mandatory": [
+              "left_option"
+            ]
+          }
+        },
+        "to": [{
+          "key_code": "backslash",
+          "modifiers": [
+            "left_shift"
+          ]
+        }],
+        "type": "basic"
+      }]
     }
   ]
 }
