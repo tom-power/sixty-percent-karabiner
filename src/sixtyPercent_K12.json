@@ -29,13 +29,34 @@
         "from": {
           "key_code": "escape",
           "modifiers": {
-            "mandatory": [
-              "right_command"
+            "mandatory": [ 
+              "right_command" 
             ]
           }
         },
         "to": [{
           "key_code": "grave_accent_and_tilde"
+        }],
+        "type": "basic"
+      }]
+    },
+    {
+      "description": "command+` (right_command + left_command + escape)",
+      "manipulators": [{
+        "from": {
+          "key_code": "escape",
+          "modifiers": {
+            "mandatory": [
+              "right_command",
+              "left_command"
+            ]
+          }
+        },
+        "to": [{
+          "key_code": "grave_accent_and_tilde",
+          "modifiers": [
+            "left_command"
+          ]
         }],
         "type": "basic"
       }]
