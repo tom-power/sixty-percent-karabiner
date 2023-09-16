@@ -1,7 +1,6 @@
 {
   "title": "sixtyPercentYoda",
-  "rules": [
-    {
+  "rules": [{
       "description": "~/ (right_shift + escape)",
       "manipulators": [{
         "from": {
