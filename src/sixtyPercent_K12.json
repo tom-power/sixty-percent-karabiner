@@ -1,7 +1,6 @@
 {
   "title": "sixtyPercentK12",
-  "rules": [
-    {
+  "rules": [{
       "description": "~/ (right_shift + escape)",
       "manipulators": [{
         "from": {
@@ -29,8 +28,8 @@
         "from": {
           "key_code": "escape",
           "modifiers": {
-            "mandatory": [ 
-              "right_command" 
+            "mandatory": [
+              "right_command"
             ]
           }
         },
