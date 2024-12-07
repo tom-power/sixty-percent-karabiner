@@ -1,37 +1,6 @@
 {
   "title": "sixtyPercent",
-  "rules": [{
-      "description": "Page up (left_control+backspace)",
-      "manipulators": [{
-        "from": {
-          "key_code": "delete_or_backspace",
-          "modifiers": {
-            "mandatory": ["left_control"],
-            "optional": ["any"]
-          }
-        },
-        "to": [{
-          "key_code": "page_up"
-        }],
-        "type": "basic"
-      }]
-    },
-    {
-      "description": "Page down (left_control+enter)",
-      "manipulators": [{
-        "from": {
-          "key_code": "return_or_enter",
-          "modifiers": {
-            "mandatory": ["left_control"],
-            "optional": ["any"]
-          }
-        },
-        "to": [{
-          "key_code": "page_down"
-        }],
-        "type": "basic"
-      }]
-    },
+  "rules": [
     {
       "description": "Down (left_control + left_arrow)",
       "manipulators": [{
