@@ -13,7 +13,7 @@
 
 ### Installation
 
-```
+```shell
 clone https://github.com/tom-power/sixty-percent-karabiner.git
 cd sixty-percent-karabiner
 sh/install.sh
