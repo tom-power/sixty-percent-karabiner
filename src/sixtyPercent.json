@@ -7,8 +7,7 @@
         "from": {
           "key_code": "left_arrow",
           "modifiers": {
-            "mandatory": ["left_control"],
-            "optional": ["any"]
+            "mandatory": ["left_control"]
           }
         },
         "to": [{
@@ -23,8 +22,7 @@
         "from": {
           "key_code": "right_arrow",
           "modifiers": {
-            "mandatory": ["left_control"],
-            "optional": ["any"]
+            "mandatory": ["left_control"]
           }
         },
         "to": [{
